@@ -1,0 +1,55 @@
+GET http://localhost:4000/health
+
+
+###
+POST http://localhost:4000
+Content-Type: application/json
+
+{
+    "name": "sakib",
+    "country": "BD",
+    "rank": 2
+}
+
+
+###
+GET http://localhost:4000
+
+###
+GET http://localhost:4000/d4izPMtCj
+
+###
+GET http://localhost:4000/Hj4QsGpj7
+
+###
+PATCH http://localhost:4000/d4izPMtCj
+Content-Type: application/json
+
+{
+    "name": "Masrafee Bin Martoza",
+    "country": "Bangladesh"
+}
+
+
+###
+PUT http://localhost:4000/Hj4QsGpj6
+Content-Type: application/json
+
+{
+    "name": "sakib al hasan",
+    "country": "BD",
+    "rank": 5
+}
+
+###
+PUT http://localhost:4000/Hj4QsGpk6
+Content-Type: application/json
+
+{
+    "name": "Tamim",
+    "country": "Bangladesh",
+    "rank": 3
+}
+
+###
+DELETE http://localhost:4000/Ijewzrpwp
